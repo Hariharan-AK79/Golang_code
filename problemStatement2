@@ -1,0 +1,29 @@
+package main
+
+import "fmt"
+
+func main() {
+	cnp := make(chan func(), 10)
+	for i := 0; i < 4; i++ {
+		go func() {
+			for f := range cnp {
+				f()
+			}
+		}()
+	}
+	cnp <- func() {
+		fmt.Println("HERE1")
+	}
+	fmt.Println("Hello")
+}
+
+
+
+Output : 
+
+Hello 
+
+
+Here the go codes executing only the fmt.Println("Hello")
+The channel which is been created dosent execute because the function func() is not having any data type
+So its not getting executed for the value cnp
