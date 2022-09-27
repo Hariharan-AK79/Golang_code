@@ -28,17 +28,17 @@ func TopThreeFood() error {
 
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 
-	var foodmenus []FoodMenu
+	var foodmenu_id []FoodMenu
 	var eater_id []FoodMenu
 
-	json.Unmarshal(byteValue, &foodmenus)
+	json.Unmarshal(byteValue, &foodmenu_id)
 	json.Unmarshal(byteValue, &eater_id)
 
 	foodmenuMap := make(map[string]int)
 	eater_idMap := make(map[string]int)
 
-	for i := 0; i < len(foodmenus); i++ {
-		foodmenuMap[foodmenus[i].FoodMenuID]++
+	for i := 0; i < len(foodmenu_id); i++ {
+		foodmenuMap[foodmenu_id[i].FoodMenuID]++
 	}
 
 	for i := 0; i < len(eater_id); i++ {
@@ -55,10 +55,10 @@ func TopThreeFood() error {
 
 	}
 	var idArray []string
-	for _, tempData := range foodmenus {
+	for _, tempData := range foodmenu_id {
 		idArray = append(idArray, tempData.EaterID)
 	}
-	unique(foodmenus)
+	unique(foodmenu_id)
 
 	return nil
 }

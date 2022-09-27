@@ -1,74 +1,83 @@
 [
     {
         "eater_id" : "001",
-        "foodmenu_id" : "233",
-        "foodname" : "Burger"
+        "foodmenu_id" : "133",
+        "foodname" : "Chocolate Shake"
     },
     {
         "eater_id" : "002",
-        "foodmenu_id" : "234",
-        "foodname" : "Pizza"
+        "foodmenu_id" : "134",
+        "foodname" : "Brownie"
 
     },
     {
         "eater_id" : "003",
-        "foodmenu_id" : "235",
-        "foodname" : "Sandwich"
+        "foodmenu_id" : "135",
+        "foodname" : "Veg pulav"
     },
     {
         "eater_id" : "004",
-        "foodmenu_id" : "236",
+        "foodmenu_id" : "136",
         "foodname" : "Pasta"
     },
     {
         "eater_id" : "001",
-        "foodmenu_id" : "233",
-        "foodname" : "Burger"
+        "foodmenu_id" : "133",
+        "foodname" : "Chocolate Shake"
     },
     {
         "eater_id" : "006",
-        "foodmenu_id" : "233",
-        "foodname" : "Burger"
+        "foodmenu_id" : "133",
+        "foodname" : "Chocolate Shake"
     },
     {
         "eater_id" : "007",
-        "foodmenu_id" : "233",
-        "foodname" : "Burger"
+        "foodmenu_id" : "133",
+        "foodname" : "Chocolate Shake"
     },
     {
         "eater_id" : "002",
-        "foodmenu_id" : "234",
-        "foodname" : "Pizza"
+        "foodmenu_id" : "134",
+        "foodname" : "Brownie"
     },
     {
         "eater_id" : "002",
-        "foodmenu_id" : "236",
+        "foodmenu_id" : "136",
         "foodname" : "Coffee"
     },
     {
         "eater_id" : "003",
-        "foodmenu_id" : "236",
+        "foodmenu_id" : "136",
         "foodname" : "Coffee"
     },
     {
         "eater_id" : "003",
-        "foodmenu_id" : "236",
+        "foodmenu_id" : "136",
         "foodname" : "Coffee"
     },
     {
         "eater_id" : "001",
-        "foodmenu_id" : "236",
+        "foodmenu_id" : "136",
         "foodname" : "Coffee"
     },
     {
         "eater_id" : "009",
-        "foodmenu_id" : "235",
-        "foodname" : "Sandwich"
+        "foodmenu_id" : "135",
+        "foodname" : "Veg pulav"
     },
     {
         "eater_id" : "010",
-        "foodmenu_id" : "235",
+        "foodmenu_id" : "135",
+        "foodname" : "Veg pulav"
+    },
+    {
+        "eater_id" : "004",
+        "foodmenu_id" : "138",
+        "foodname" : "Sandwich"
+    },
+    {
+        "eater_id" : "001",
+        "foodmenu_id" : "138",
         "foodname" : "Sandwich"
     }
-   
 ]
