@@ -23,7 +23,7 @@ func TopThreeFood() error {
 	if err != nil {
 		return err
 	}
-	fmt.Println("Successfully Opened log.json")
+	fmt.Println("Successfully Opened restlog.json")
 	defer jsonFile.Close()
 
 	byteValue, _ := ioutil.ReadAll(jsonFile)
